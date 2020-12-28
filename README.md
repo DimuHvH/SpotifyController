@@ -13,3 +13,11 @@ Play/Pause: Right Ctrl + Arrow Key Up
 Next song: Right Ctrl + Arrow Key Right
 Prev song: Right Ctrl + Arrow Key Left
 ```
+## Some planned features
+
+- Add UI 
+- Add more functionality except then the three keybinds
+- Add a configuration file for more customization
+- ...
+
+This is a WIP project that I might give up after a few weeks or so :D
