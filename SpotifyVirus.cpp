@@ -78,14 +78,14 @@ void HandleInput(HWND spotify)
 			//std::cout << "Skipping song" << std::endl;
 		}
 
-		// Strg Rechts -> Next
+		// Strg Right -> Next
 		if ((GetAsyncKeyState(VK_RIGHT) & 0x8000) && !bPressed) {
 			bPressed = true;
 			SendCommand(spotify, APPCOMMAND_MEDIA_NEXTTRACK);
 			//std::cout << "Next song" << std::endl;
 		}
 
-		// Strg Links -> Prev
+		// Strg Left -> Prev
 		if ((GetAsyncKeyState(VK_LEFT) & 0x8000) && !bPressed) {
 			bPressed = true;
 			SendCommand(spotify, APPCOMMAND_MEDIA_PREVIOUSTRACK);
